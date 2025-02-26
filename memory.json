@@ -1,0 +1,55 @@
+{  
+  "user": {  
+    "name": null,  
+    "age": null,  
+    "gender": null,  
+    "species": null,  
+    "background-information": null,  
+    "extra-facts": null,  
+    "status": "Undead",  
+    "strength": "Low",  
+    "dexterity": "Average",  
+    "height": null,  
+    "weight": null,  
+    "body": null,  
+    "charisma": "Very low",  
+    "current location": "The prison cell of the asylum",  
+    "abilities": [  
+      {  
+        "name": "Punching",  
+        "description": "A simple, unarmed strike. Not elegant, not refined, but sometimes it is all you need.",  
+        "restriction": "No particular restriction."  
+      }  
+    ],  
+    "inventory": [  
+      {  
+        "name": "Rusted key",  
+        "description": "A corroded key, its purpose long forgotten. It will surely break once it is used.",  
+        "quantity": 1,  
+        "rarity": "Unique",  
+        "weight": "20g"  
+      }  
+    ]  
+  },  
+  "npc": [  
+    {  
+      "name": null,  
+      "description": null,  
+      "state": null
+    }  
+  ],  
+  "places": [  
+    {  
+      "name": "The prison cell of the asylum",  
+      "description": "A damp, stifling cage of stone and iron, reeking of mildew and decay. The walls are slick with moisture, the floor uneven and cold beneath your feet.",  
+      "leads to": [  
+        {  
+          "name": "The corridor",  
+          "travel duration": "instantaneous",  
+          "description": "A narrow, crumbling passage reeking of mold and rust. Water drips, shadows flicker, and in the distance—chains rattle, something breathes.",
+          "restriction": "A locked gate stands in the way."
+        }
+      ]
+    }  
+  ]  
+}
