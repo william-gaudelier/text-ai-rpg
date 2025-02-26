@@ -1,6 +1,6 @@
 A text-based RPG that uses ChatGPT for the game itself and streamlit for the interface.
 
-It has a hard time coming up with an interesting story for the moment, but still fun to play with.
+It has a hard time coming up with an interesting story for the moment, it's hard to escape the corridor...
 
 It runs locally with the following files:
 - **text-rpg.py**, contains the code that interfaces with openai and displays the adventure (requires an API key)
